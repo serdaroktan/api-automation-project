@@ -102,6 +102,9 @@
             "exec": [
               "pm.test(\"Status code is 200\", function () {",
               "    pm.response.to.have.status(200);",
+              "});",
+              "pm.test(\"Force fail\", function () {",
+              "    pm.expect(true).to.eql(false);",
               "});"
             ],
             "type": "text/javascript",
