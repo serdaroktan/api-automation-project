@@ -34,4 +34,4 @@ This project demonstrates API test automation using Postman and Newman.
 Install Newman:
 
 ```bash
-npm install -g newman
+npm install -g newmantest
